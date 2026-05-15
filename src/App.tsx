@@ -51,7 +51,7 @@ function App() {
   }, [])
  
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/WeddingSite">
     <Container className="Main">
       <Header />
       <Routes>
