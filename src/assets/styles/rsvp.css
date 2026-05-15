@@ -15,7 +15,7 @@
 .rsvp-person-row { display:flex; align-items:center; justify-content:space-between; gap:8px; }
 .rsvp-person-name { font-weight:700; color:#0f172a; }
 .rsvp-controls { display:flex; gap:8px; align-items:center; }
-.elegant-input { padding:10px 12px; border-radius:10px; border:1px solid #e6edf3; width:100%; max-width:320px; font-size:14px; box-shadow:none; transition:box-shadow .12s, border-color .12s; }
+.elegant-input { padding:10px 12px; border-radius:10px; border:1px solid #e6edf3; width:100%; max-width:320px; font-size:17px; box-shadow:none; transition:box-shadow .12s, border-color .12s; }
 .elegant-input:focus { outline:none; border-color:#10b981; box-shadow:0 6px 20px rgba(16,185,129,0.08); }
 .elegant-button { background:#f8fafc; color: #929f79 ; border:1px solid rgba(16,185,129,0.12); padding:8px 14px; border-radius:10px; font-weight:700; cursor:pointer; transition:background .12s, transform .08s; margin-top: 5%; }
 .elegant-button:hover { background:rgba(16,185,129,0.06); transform:translateY(-2px); }

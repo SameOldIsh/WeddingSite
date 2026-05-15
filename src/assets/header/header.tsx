@@ -26,7 +26,7 @@ function Header() {
                 
                 color: "#929f79"
               }}
-              href="/"
+              href="/WeddingSite"
             >
               RSVP
             </a>
