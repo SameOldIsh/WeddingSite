@@ -1,0 +1,133 @@
+.rsvpContainer {
+  display: flex;
+  max-width: 100vh;
+  overflow: none;
+  flex-direction: column;
+}
+
+
+.rsvp-card { width:100%; background:#f7f5f5; border-radius:14px; box-shadow:0 12px 40px rgba(16,24,40,0.08); padding:24px; display:flex; flex-direction:column; gap:16px; }
+.rsvp-header { display:flex; justify-content:space-between; align-items:center; gap:12px; }
+.rsvp-title { margin:0; font-size:20px; color:#111827; }
+.rsvp-sub { margin:0; font-size:13px; color:#6b7280; }
+.rsvp-list { display:flex; flex-direction:column; gap:12px; margin:0; padding:0; list-style:none; }
+.rsvp-person { background:#f8fafc; padding:12px; border-radius:10px; display:flex; flex-direction:column; gap:8px; }
+.rsvp-person-row { display:flex; align-items:center; justify-content:space-between; gap:8px; }
+.rsvp-person-name { font-weight:700; color:#0f172a; }
+.rsvp-controls { display:flex; gap:8px; align-items:center; }
+.elegant-input { padding:10px 12px; border-radius:10px; border:1px solid #e6edf3; width:100%; max-width:320px; font-size:14px; box-shadow:none; transition:box-shadow .12s, border-color .12s; }
+.elegant-input:focus { outline:none; border-color:#10b981; box-shadow:0 6px 20px rgba(16,185,129,0.08); }
+.elegant-button { background:#f8fafc; color: #929f79 ; border:1px solid rgba(16,185,129,0.12); padding:8px 14px; border-radius:10px; font-weight:700; cursor:pointer; transition:background .12s, transform .08s; margin-top: 5%; }
+.elegant-button:hover { background:rgba(16,185,129,0.06); transform:translateY(-2px); }
+.elegant-yes { background:linear-gradient(90deg,#10b981,#059669); color:#fff; padding:8px 12px; border-radius:8px; border:none; cursor:pointer; }
+.elegant-no { background:#ef4444; color:#fff; padding:8px 12px; border-radius:8px; border:none; cursor:pointer; }
+/* name above controls */
+.rsvp-person {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #fff;
+  padding: 14px;
+  border-radius: 10px;
+}
+
+/* prominent name */
+.rsvp-person-name {
+  font-weight: 700;
+  font-size: 16px;
+  color: #0f172a;
+  margin-bottom: 4px;
+}
+
+/* controls layout */
+.rsvp-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+/* clear button with light gold border */
+.clear-gold {
+  background: #f9f7f3;
+  color: #929f79 ; 
+  border: 1px solid rgba(212,175,55,0.38);
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background .12s ease, transform .06s ease, box-shadow .12s;
+  font-family: Bona;
+}
+
+/* subtle hover */
+.clear-gold:hover {
+  background: rgba(212,175,55,0.06);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(212,175,55,0.06);
+}
+
+.clear-gold:active {
+  transform: translateY(0);
+  background: rgba(212,175,55,0.10);
+}
+
+.clear-gold:focus {
+  outline: 2px solid rgba(212,175,55,0.16);
+  outline-offset: 2px;
+}
+
+
+
+.rsvp-root {
+  min-width: 100%; 
+  /* max-height: 50vh;  */
+  display:flex; 
+  align-items:center; 
+  justify-content:center; 
+  box-sizing:border-box; 
+  overflow: scroll; 
+  margin-top: 1%;
+
+}
+
+
+.rsvp-ul {
+  max-height: 50vh;
+  padding: 0%;
+  /* margin-top: 15%; */
+}
+
+.rsvp-card { 
+  width:80%; 
+  background:#f7f5f5; 
+  border-radius:14px; 
+  box-shadow:0 12px 40px rgba(16,24,40,0.08); 
+  /* padding:10%;  */
+  margin-left: 5%;
+  text-align: center;
+  
+}
+
+.rsvp-person-name {
+font-family: Adelia;
+color: #929f79;
+margin: 10px 0 10px 0;
+font-size: large;
+}
+
+.songText {
+  padding: 0 10% 5% 10%;
+  text-align: center;
+  font-family: Bona;
+color: #929f79;
+}
+
+@media screen and (max-height: 750px) {
+  .rsvp-root {
+    max-height: 75%;
+  }
+.elegant-button { 
+  margin-top: 3%; }
+
+}

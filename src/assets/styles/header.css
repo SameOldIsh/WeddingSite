@@ -1,0 +1,22 @@
+.headerTitle {
+  font-family: "Adelia";
+  /* font-style: italic */
+}
+
+.headContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 35%;
+  /* position: relative;
+  top: 15%; */
+}
+
+.headerLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 10%;
+}

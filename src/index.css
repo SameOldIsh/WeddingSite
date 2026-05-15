@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Adelia';
+    src: local('Adelia'), url('./fonts/adelia.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bona';
+    src: local('Bona'), url('./fonts/BonaNova-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}

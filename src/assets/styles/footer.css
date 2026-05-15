@@ -1,0 +1,25 @@
+/* .app-footer {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 0;
+  z-index: 100;
+} */
+
+.footer-image {
+  max-height: 100vh;
+  max-width: 50vh;
+  display: block;
+}
+
+/* src/components/footer.css */
+.app-footer {
+  position: fixed;
+  left: -20%;
+  /* right: 5px; */
+  z-index: -100;          /* low so items with higher z-index can overlap it */
+}

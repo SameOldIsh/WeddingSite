@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+    overflow: hidden;
+    max-height: 100vh;
+    max-width: 100vh;
+
+    background-image: url('./assets/images/woods.png');
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.Main {
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+    max-width: 100vh;
+    height: 100vh;
+
+}
