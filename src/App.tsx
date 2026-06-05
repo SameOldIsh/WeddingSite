@@ -9,6 +9,8 @@ import Container from 'react-bootstrap/Container';
 import AdminPage from './assets/component/adminPage';
 import Footer from './assets/header/footer';
 import FooterImage from './assets/images/woods.png';
+import Travel from './assets/component/travel';
+import Registry from './assets/component/registry';
 
 
 
@@ -58,6 +60,8 @@ function App() {
         <Route path='/' element={<EnterName people={people} />} />
         <Route path='/rsvp/:name' element={<Rsvp people={people} setPeople={setPeople} />} />
         <Route path='/admin' element={<AdminPage />} />
+        <Route path='/travel' element={<Travel />} />
+        <Route path='/registry' element={<Registry />} />
       </Routes>
       {/* <Footer /> */}
     </Container>

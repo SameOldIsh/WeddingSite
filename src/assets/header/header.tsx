@@ -37,7 +37,7 @@ function Header() {
                
                 color: "#929f79" 
               }}
-              href="#link"
+              href="/travel"
             >
               Travel
             </a>
@@ -48,7 +48,7 @@ function Header() {
             
                 color: "#929f79"
               }}
-              href="#link"
+              href="/registry"
             >
               Registry
             </a>

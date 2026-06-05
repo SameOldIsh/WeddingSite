@@ -100,7 +100,7 @@
 
 .rsvp-card { 
   width:80%; 
-  background:#f7f5f5; 
+  background:#f7f5f5CC;
   border-radius:14px; 
   box-shadow:0 12px 40px rgba(16,24,40,0.08); 
   /* padding:10%;  */
